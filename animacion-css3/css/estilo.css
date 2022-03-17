@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@keyframes miAnimacion{
+
+    0%{
+        opacity:1;
+    }
+    20%{
+        opacity:1;
+    }
+
+    30%{
+        opacity: 0;
+    }
+
+    90%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@-webkit-keyframes miAnimacion{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+@-moz-keyframes miAnimacion{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+#fondo1{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.ytimg.com/vi/i_A2diTgvi8/maxresdefault.jpg);
+    /* background-repeat: no-repeat; */
+    animation: miAnimacion 24s cubic-bezier(1,-0.5,0.5,1) 20s infinite;
+
+}
+
+#fondo2{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/por-que-el-espacio-es-frio-1617903788.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top bottom;
+    animation: miAnimacion 24s cubic-bezier(1,-0.5,0.5,1) 15s infinite;
+
+}
+
+#fondo3{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/D%C3%BCsseldorf_Hofgarten_2009.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: miAnimacion 24s cubic-bezier(1,-0.5,0.5,1) 10s infinite;
+
+}
+
+#fondo4{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url(https://i.blogs.es/8aa285/cross-country-skiing-2065439_1920/1366_2000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: miAnimacion 24s cubic-bezier(1,-0.5,0.5,1) 5s infinite;
+    /* animation: miAnimacion 10s; */
+    @-webkit-keyframes: miAnimacion 10s;
+    @-moz-keyframes: miAnimacion 10s;
+}
